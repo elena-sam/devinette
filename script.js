@@ -212,10 +212,10 @@ class Game
         document.querySelector(".footer button").replaceWith(newButton);
 
         // Render move  
-        document.getElementById("move").textContent = `Move: ${move}`;
+        document.getElementById("move").textContent = `Clics : ${move}`;
 
         // Render time  
-        document.getElementById("time").textContent = `Time: ${time}`;
+        document.getElementById("time").textContent = `Temps : ${time}`;
 
         // Render message  
         if (status === "won")
