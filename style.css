@@ -49,15 +49,11 @@ body {
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);  
     padding: 5px;  
     width: 100%;  
-    color: #003333;  
-    outline: none;  
-    cursor: pointer;  
-}  
-      
-.footer button:hover {  
     color: #D4EE9F;  
     background-color: #003333;  
-}  
+    outline: none;  
+    cursor: pointer;  
+}
       
 .footer span {  
     flex: 1;  
